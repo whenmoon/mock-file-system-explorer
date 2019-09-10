@@ -6,7 +6,11 @@
                  [thheller/shadow-cljs "2.8.52"]
                  [reagent "0.8.1"]
                  [re-frame "0.10.9"]
-                 [clj-http "3.10.0"]]
+                 [cljs-http "0.1.46"]
+                 [cljs-material-ui "1.0.01"]
+                 [cljsjs/react "16.3.0-0"]
+                 [cljsjs/react-dom "16.3.0-0"]
+                 ]
 
   :plugins []
 

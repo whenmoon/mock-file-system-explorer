@@ -5,7 +5,6 @@
    [mock-file-system.events :as events]
    [mock-file-system.views :as views]
    [mock-file-system.config :as config]
-  ;  [clj-http.client :as http]
    ))
 
 

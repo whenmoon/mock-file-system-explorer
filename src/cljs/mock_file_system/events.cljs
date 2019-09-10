@@ -8,3 +8,8 @@
  ::initialize-db
  (fn [_ _]
    db/default-db))
+
+(re-frame/reg-event-db
+ :set-api-data
+ (fn [db [_ file-tree]]
+   (assoc db :nodes file-tree)))
