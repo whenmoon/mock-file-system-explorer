@@ -10,8 +10,9 @@
 
 (defn main-panel []
 
-(def nodes (-> @(re-frame/subscribe [::subs/nodes]) :body :root))
-; (println "Nodes in view.cljs >>>>>>>>>>>" nodes)  
+  (def nodes (-> @(re-frame/subscribe [::subs/nodes])))
+  (println "Nodes in view.cljs" nodes)  
+
   (reagent/create-class
    {:component-did-mount
 

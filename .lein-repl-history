@@ -1,0 +1,12 @@
+map 1
+map (1)
+(map (1))
+(map a: 1)
+(map :a 1)
+(into {} :a 1)
+(def maps-vec [{:a 1} {:b 2} {:c 3}])
+(defn dispatch-nodes-to-state [node]
+  (println " ------- " node))
+(defn traverse-tree [nodes]
+  (run! dispatch-nodes-to-state nodes))
+(traverse-tree maps-vec)

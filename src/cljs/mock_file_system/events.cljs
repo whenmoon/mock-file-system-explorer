@@ -10,6 +10,6 @@
    db/default-db))
 
 (re-frame/reg-event-db
- :set-api-data
- (fn [db [_ file-tree]]
-   (assoc db :nodes file-tree)))
+ :set-nodes
+ (fn [db [_ node]]
+   (assoc db :nodes (conj (db :nodes) node))))
