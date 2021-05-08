@@ -4,7 +4,7 @@
   },
   "dependencies": {
     "create-react-class": "^15.6.3",
-    "google-closure-library": "^20190909.0.0",
+    "google-closure-library": "^20200315.0.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6"
   }
